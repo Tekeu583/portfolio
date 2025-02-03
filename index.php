@@ -109,7 +109,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="buttons padd-15">
-                                            <a href="#" class="btn">Download CV</a>
+                                            <a href="cv/cv_ARSENE_TEKEU.pdf" class="btn">Download CV</a>
                                             <a href="#contact" class="btn hire-me">hire me</a>
                                         </div>
                                     </div>
