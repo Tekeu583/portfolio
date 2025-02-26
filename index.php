@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="css/color-3.css" class="alternative-style" title="color-3" disabled>
     <link rel="stylesheet" href="css/color-4.css" class="alternative-style" title="color-4" disabled>
     <link rel="stylesheet" href="css/color-5.css" class="alternative-style" title="color-5" disabled>
-    <link rel="stylesheet" href="css/color-6.css" class="alternative-style" title="color-6" disabled>
     <link rel="stylesheet" href="css/styles-switcher.css">
 </head>
 <body class="dark">
@@ -56,8 +55,8 @@
                         </div>
                         <div class="home-info padd-15">
                             <h3 class="hello">Hello , my name is <span class="name">Arsene Tekeu</span></h3>
-                            <h3 class="my-profesion">I'm a <span class="typing">web designer</span></h3>
-                            <p>I'm a web designer with extensive experience for over 5 years. My expertise is to create and website design , graphic design and many more...</p>
+                            <h3 class="my-profesion">I'm a <span class="typing">web Developper</span></h3>
+                            <p>I'm a web designer with extensive experience for over 2 years. My expertise is to create and website design , graphic design and many more...</p>
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
                     </div>
@@ -74,7 +73,7 @@
                         <div class="about-content padd-15">
                             <div class="row">
                                 <div class="about-text padd-15">
-                                    <h3>I'm ARSENE TEKEU and <span>Web Developper</span></h3>
+                                    <h3>I'm ARSENE TEKEU and <span>Web Developper Fullstack</span></h3>
                                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                                         Accusantium similique reiciendis voluptatem nesciunt. 
                                         Necessitatibus, corporis maiores optio porro error iste reprehenderit pariatur incidunt 
@@ -109,7 +108,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="buttons padd-15">
-                                            <a href="cv/cv_ARSENE_TEKEU.pdf" class="btn">Download CV</a>
+                                            <a href="cv/CV_ARSENE_TEKEU.pdf" class="btn">Download CV</a>
                                             <a href="#contact" class="btn hire-me">hire me</a>
                                         </div>
                                     </div>
@@ -157,9 +156,9 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2021-2025
+                                                        <i class="fa fa-calendar"></i>2022-2023
                                                     </h3>
-                                                    <h4 class="timeline-tile">University Diploma of Technology</h4>
+                                                    <h4 class="timeline-tile">Computer Science Student Level 1 at the University of Dschang</h4>
                                                     <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -169,9 +168,9 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2021-2025
+                                                        <i class="fa fa-calendar"></i>2021-2022
                                                     </h3>
-                                                    <h4 class="timeline-tile">University Diploma of Technology</h4>
+                                                    <h4 class="timeline-tile">ESG Baccalaureate C serie</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -181,9 +180,9 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2021-2025
+                                                        <i class="fa fa-calendar"></i>2020-2021
                                                     </h3>
-                                                    <h4 class="timeline-tile">University Diploma of Technology</h4>
+                                                    <h4 class="timeline-tile">ESG Probatory Exam,C serie</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -271,7 +270,7 @@
                                 <div class="icon">
                                     <i class="fa fa-laptop-code"></i>
                                 </div>
-                                <h4>Web Design</h4>
+                                <h4>Web Developper</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     </p>
                             </div>
@@ -295,7 +294,7 @@
                                 <div class="icon">
                                     <i class="fa fa-code"></i>
                                 </div>
-                                <h4>Web Design</h4>
+                                <h4>Web Developper</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     </p>
                             </div>
@@ -319,7 +318,7 @@
                                 <div class="icon">
                                     <i class="fa fa-bullhorn"></i>
                                 </div>
-                                <h4>Web Design</h4>
+                                <h4>Web Developper</h4>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                     </p>
                             </div>
@@ -504,7 +503,6 @@
             <span class="color-3" onclick="setActiveStyle('color-3')"></span>
             <span class="color-4" onclick="setActiveStyle('color-4')"></span>
             <span class="color-5" onclick="setActiveStyle('color-5')"></span>
-            <span class="color-6" onclick="setActiveStyle('color-6')"></span>
         </div>
     </div>
     <!--==== styles switcher End ====-->
