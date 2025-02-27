@@ -57,7 +57,7 @@
                             <h3 class="hello">Hello , my name is <span class="name">Arsene Tekeu</span></h3>
                             <h3 class="my-profesion">I'm a <span class="typing">web Developper</span></h3>
                             <p>I'm a web designer with extensive experience for over 2 years. My expertise is to create and website design , graphic design and many more...</p>
-                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                            <a href="#contact" class="btn hire-me charger"><span  >Hire Me</span></a>
                         </div>
                     </div>
                 </div>
@@ -108,8 +108,8 @@
                                     </div>
                                     <div class="row">
                                         <div class="buttons padd-15">
-                                            <a href="cv/CV_ARSENE_TEKEU.pdf" class="btn">Download CV</a>
-                                            <a href="#contact" class="btn hire-me">hire me</a>
+                                            <a href="cv/CV_ARSENE_TEKEU.pdf" class="btn charger"><span  >Download CV</span></a>
+                                            <a href="#contact" class="btn hire-me charger"><span >hire me</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -158,7 +158,7 @@
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i>2022-2023
                                                     </h3>
-                                                    <h4 class="timeline-tile">Computer Science Student Level 1 at the University of Dschang</h4>
+                                                    <h4 class="timeline-title">Computer Science Student Level 1 at the University of Dschang</h4>
                                                     <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -170,7 +170,7 @@
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i>2021-2022
                                                     </h3>
-                                                    <h4 class="timeline-tile">ESG Baccalaureate C serie</h4>
+                                                    <h4 class="timeline-title">ESG Baccalaureate C serie</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -182,7 +182,7 @@
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i>2020-2021
                                                     </h3>
-                                                    <h4 class="timeline-tile">ESG Probatory Exam,C serie</h4>
+                                                    <h4 class="timeline-title">ESG Probatory Exam,C serie</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -203,7 +203,7 @@
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i>jan/2025 - Present
                                                     </h3>
-                                                    <h4 class="timeline-tile">CCNTechnology/web Developpment</h4>
+                                                    <h4 class="timeline-title">CCNTechnology/web Developpment</h4>
                                                     <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -215,7 +215,7 @@
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i>jan/2025 - Present
                                                     </h3>
-                                                    <h4 class="timeline-tile">CCNTechnology/cybersecurity</h4>
+                                                    <h4 class="timeline-title">CCNTechnology/cybersecurity</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -227,7 +227,7 @@
                                                     <h3 class="timeline-date">
                                                         <i class="fa fa-calendar"></i>2021-2025
                                                     </h3>
-                                                    <h4 class="timeline-tile">University Diploma of Technology</h4>
+                                                    <h4 class="timeline-title">University Diploma of Technology</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -474,7 +474,7 @@
                             </div>
                             <div class="row">
                                 <div class="form-item col-12 padd-15">
-                                    <button type="submit" name="envoyer" class="btn">Send Messages</button>
+                                    <button type="submit" name="envoyer" class="btn charger"><span >Send Messages</span></button>
                                 </div>
                             </div>
                         </form>
