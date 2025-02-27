@@ -201,9 +201,9 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2021-2025
+                                                        <i class="fa fa-calendar"></i>jan/2025 - Present
                                                     </h3>
-                                                    <h4 class="timeline-tile">University Diploma of Technology</h4>
+                                                    <h4 class="timeline-tile">CCNTechnology/web Developpment</h4>
                                                     <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
@@ -213,9 +213,9 @@
                                                 <div class="timeline-item">
                                                     <div class="circle-dot"></div>
                                                     <h3 class="timeline-date">
-                                                        <i class="fa fa-calendar"></i>2021-2025
+                                                        <i class="fa fa-calendar"></i>jan/2025 - Present
                                                     </h3>
-                                                    <h4 class="timeline-tile">University Diploma of Technology</h4>
+                                                    <h4 class="timeline-tile">CCNTechnology/cybersecurity</h4>
                                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                                         Impedit commodi quis cupiditate aliquid eaque. Iste, 
                                                         perspiciatis animi dolorem ex quae obcaecati magnam. 
