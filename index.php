@@ -32,11 +32,11 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#home" class="active"><i class="fa fa-home">Home</i></a></li>
-                <li><a href="#about"><i class="fa fa-user">About</i></a></li>
-                <li><a href="#service"><i class="fa fa-list">Services</i></a></li>
-                <li><a href="#portfolio"><i class="fa fa-briefcase">Portfolio</i></a></li>
-                <li><a href="#contact"><i class="fa fa-comments">Contacts</i></a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home">  Home</i></a></li>
+                <li><a href="#about"><i class="fa fa-user">  About</i></a></li>
+                <li><a href="#service"><i class="fa fa-list">  Services</i></a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase">  Portfolio</i></a></li>
+                <li><a href="#contact"><i class="fa fa-comments">  Contacts</i></a></li>
             </ul>
         </div>
         <!--====aside End===-->
@@ -118,28 +118,28 @@
                                         <div class="skill-item padd-15">
                                             <h5>CSS</h5>
                                             <div class="progress">
-                                                <div class="progress-in" style="width: 76%;"></div>
+                                                <div class="progress-in" data-target="76"></div>
                                                 <div class="skill-percent">76%</div>
                                             </div>
                                         </div>
                                         <div class="skill-item padd-15">
                                             <h5>JS</h5>
                                             <div class="progress">
-                                                <div class="progress-in" style="width: 50%;"></div>
+                                                <div class="progress-in" data-target="50"></div>
                                                 <div class="skill-percent">50%</div>
                                             </div>
                                         </div>
                                         <div class="skill-item padd-15">
                                             <h5>PHP</h5>
                                             <div class="progress">
-                                                <div class="progress-in" style="width: 50%;"></div>
+                                                <div class="progress-in" data-target="50"></div>
                                                 <div class="skill-percent">50%</div>
                                             </div>
                                         </div>
                                         <div class="skill-item padd-15">
                                             <h5>HTML</h5>
                                             <div class="progress">
-                                                <div class="progress-in" style="width: 80%;"></div>
+                                                <div class="progress-in" data-target="80"></div>
                                                 <div class="skill-percent">80%</div>
                                             </div>
                                         </div>
@@ -510,6 +510,42 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
     <script src="js/styles-switcher.js"></script>
+    <script>
+        function isInViewport(element) {
+            let rect = element.getBoundingClientRect();
+            return rect.top >= 0 && rect.bottom <= window.innerHeight;
+        }
+
+        function animateProgressBar(progressBar) {
+            let width = 0;
+            let targetWidth = parseInt(progressBar.getAttribute("data-target"));
+
+            let interval = setInterval(() => {
+                if (width >= targetWidth) {
+                    clearInterval(interval);
+                } else {
+                    width++;
+                    progressBar.style.width = width + "%";
+                    progressBar.textContent = width + "%";
+                }
+            }, 15);
+        }
+
+        function checkProgressBars() {
+            let progressBars = document.querySelectorAll(".progress-in");
+
+            progressBars.forEach(progressBar => {
+                if (isInViewport(progressBar) && progressBar.style.width === "0%") {
+                    animateProgressBar(progressBar);
+                } else if (!isInViewport(progressBar)) {
+                    progressBar.style.width = "0%"; // Réinitialise la barre pour rejouer l'animation
+                    progressBar.textContent = "0%";
+                }
+            });
+        }
+
+        window.addEventListener("scroll", checkProgressBars);
+    </script>
 </body>
 </html>
 <?php

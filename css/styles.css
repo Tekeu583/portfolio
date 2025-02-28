@@ -103,7 +103,7 @@ ul{
     position: relative;
 }
 .btn{
-    font-size: 16px;
+    font-size: 18px;
     /* font-weight: 500; */
     padding: 12px 35px;
     color: white;
@@ -119,6 +119,39 @@ ul{
 }
 .shadow-dark{
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15)
+}
+/* animation bouton */
+.charger {
+    position: relative;
+    padding: 15px 40px;
+    border-radius: 40px;
+    background: var(--skin-color);
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+/* Barre de chargement animée */
+.charger::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 100%;
+    /* background-color: #2ecc71; */
+    background: linear-gradient(90deg, var(--skin-color), #01ff6b);
+    transition: width 1.5s ease-in-out;
+}
+
+/* Effet de remplissage progressif au survol */
+.charger:hover::before {
+    width: 100%;
+}
+
+/* Texte au-dessus pour être lisible */
+.charger span {
+    position: relative;
+    z-index: 1;
 }
 /* aside */
 .aside{
@@ -437,8 +470,8 @@ h3.my-profesion{
 }
 .about .about-content .skills .skill-item .progress{
     background-color: var(--bg-black-50);
-    height: 7px;
-    border-radius: 4px;
+    height: 15px;
+    border-radius: 10px;
     width: 100%;
     position: relative;
 }
@@ -448,8 +481,15 @@ h3.my-profesion{
     left: 0;
     top: 0;
     height: 100%;
-    border-radius: 4px;
-    background-color: var(--skin-color);
+    width: 0%;
+    text-align: center;
+    font-size: 10px;
+    color: var(--text-black-900);
+    font-weight: bold;
+    border-radius: 10px;
+    /* background-color: var(--skin-color); */
+    background: linear-gradient(90deg, #01ff6b, var(--skin-color));
+    transition: width 1.5s ease-in-out;
 }
 .about .about-content .skills .skill-item .skill-percent{
     position: absolute;
@@ -687,42 +727,6 @@ h3.my-profesion{
     height: 50px;
     padding: 0 50px;
     cursor: pointer;
-}
-/* animation bouton */
-.charger {
-    position: relative;
-    padding: 15px 40px;
-    font-size: 18px;
-    font-weight: bold;
-    border: none;
-    border-radius: 40px;
-    background: var(--skin-color);
-    color: white;
-    cursor: pointer;
-    overflow: hidden;
-}
-/* Barre de chargement animée */
-.charger::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0%;
-    height: 100%;
-    /* background-color: #2ecc71; */
-    background: linear-gradient(90deg, var(--skin-color), #01ff6b);
-    transition: width 1.5s ease-in-out;
-}
-
-/* Effet de remplissage progressif au survol */
-.charger:hover::before {
-    width: 100%;
-}
-
-/* Texte au-dessus pour être lisible */
-.charger span {
-    position: relative;
-    z-index: 1;
 }
 @media (max-width:1199px){
     .aside{
