@@ -1,6 +1,3 @@
-<?php
-    require("connexion/commandes.php");
-?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -569,28 +566,3 @@
 </body>
 
 </html>
-<?php
-if(isset($_POST['envoyer'])){
-    if(isset($_POST['nom']) AND isset($_POST['email']) AND isset($_POST['objet']) AND isset($_POST['sms']) ){
-        if(!empty($_POST['nom']) AND !empty($_POST['email']) AND !empty($_POST['objet']) AND !empty($_POST['sms']) ){
-
-            $nom=htmlspecialchars(strip_tags($_POST['nom']));
-            $email=htmlspecialchars(strip_tags($_POST['email']));
-            $objet=htmlspecialchars(strip_tags($_POST['objet']));
-            $sms=htmlspecialchars(strip_tags($_POST['sms']));
-            $messages ='merci de contacter arsenetech ! en quoi pouvons nous vous aidez ?';
-            $adressemail= 'arsenetekeu@gmail.com';
-            if(filter_var($email, FILTER_VALIDATE_EMAIL))
-            {
-                try{
-                    ajouter($nom,$email,$objet,$sms);
-                    mail($email,$objet,$messages, $adressemail);
-                    mail($adressemail,$objet,$messages, $email);
-                }catch(Exception $e){
-                    echo $e->getMessage();
-                }
-            }
-        }
-    }
-}
-?>
